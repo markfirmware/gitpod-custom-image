@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full-vnc
 
-ENV PATH=/workspace/tools:$PATH
+RUN sudo apt-get -qq install qemu-system-arm
